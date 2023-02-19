@@ -1,0 +1,551 @@
+0000.000 (0) Opened log file at time: Wed, 24 Aug 2022 06:50:53 +0000 on https://khawarmehfooz.com
+0000.047 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.17 WP: 6.0.1 PHP: 7.4.28 (litespeed, Linux box5251.bluehost.com 4.19.150-76.ELK.el6.x86_64 #1 SMP Wed Oct 7 01:34:10 CDT 2020 x86_64) MySQL: 5.6.41-84.1 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 87M | 89M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.096 (0) Free space on disk containing Updraft's temporary directory: 349381.7 MB
+0000.100 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.102 (0) Semaphore (fd, wp4o_options) being initialised
+0000.104 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.107 (0) Set semaphore last lock (fd) time to 2022-08-24 06:50:53
+0000.107 (0) Semaphore lock (fd) complete
+0000.111 (0) Backup run: resumption=0, nonce=121469cb684d, file_nonce=121469cb684d begun at=1661323853 (0s ago), job type=backup
+0000.113 (0) Scheduling a resumption (1) after 300 seconds (1661324153) in case this run gets aborted
+0000.131 (0) Checking if we have a zip executable available
+0000.132 (0) Testing: /usr/bin/zip
+0000.144 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.145 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.146 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.147 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.147 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.160 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.161 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.169 (0) Working binary zip found: /usr/bin/zip
+0000.173 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.174 (0) Creation of backups of directories: beginning
+0000.181 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.148 (0) Total entities for the zip file: 2043 directories, 11106 files (0 skipped as non-modified), 158 MB
+0001.151 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.153 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.155 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.157 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.159 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.162 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.164 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.167 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.169 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.171 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.172 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.7 MB, 11106 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.716 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: size is now: 7.90 MB
+0002.720 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1100 files added (on-disk size: 8080.5 KB)
+0002.722 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1200 files added (on-disk size: 8080.5 KB)
+0002.724 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1300 files added (on-disk size: 8080.5 KB)
+0002.726 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1400 files added (on-disk size: 8080.5 KB)
+0002.728 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1500 files added (on-disk size: 8080.5 KB)
+0002.730 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1600 files added (on-disk size: 8080.5 KB)
+0002.732 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1700 files added (on-disk size: 8080.5 KB)
+0002.734 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1800 files added (on-disk size: 8080.5 KB)
+0002.737 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 1900 files added (on-disk size: 8080.5 KB)
+0002.739 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2000 files added (on-disk size: 8080.5 KB)
+0002.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.3 MB, 11106 files batched, 1001 (2002) added so far); re-opening (prior size: 8080.5 KB)
+0003.625 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: size is now: 10.70 MB
+0003.631 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2100 files added (on-disk size: 10998 KB)
+0003.634 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2200 files added (on-disk size: 10998 KB)
+0003.636 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2300 files added (on-disk size: 10998 KB)
+0003.638 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2400 files added (on-disk size: 10998 KB)
+0003.640 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2500 files added (on-disk size: 10998 KB)
+0003.643 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2600 files added (on-disk size: 10998 KB)
+0003.644 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2700 files added (on-disk size: 10998 KB)
+0003.647 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2800 files added (on-disk size: 10998 KB)
+0003.649 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 2900 files added (on-disk size: 10998 KB)
+0003.651 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3000 files added (on-disk size: 10998 KB)
+0003.652 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.3 MB, 11106 files batched, 1001 (3003) added so far); re-opening (prior size: 10998 KB)
+0005.432 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: size is now: 16.80 MB
+0005.435 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3100 files added (on-disk size: 17166.9 KB)
+0005.438 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3200 files added (on-disk size: 17166.9 KB)
+0005.440 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3300 files added (on-disk size: 17166.9 KB)
+0005.442 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3400 files added (on-disk size: 17166.9 KB)
+0005.444 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3500 files added (on-disk size: 17166.9 KB)
+0005.446 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3600 files added (on-disk size: 17166.9 KB)
+0005.448 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3700 files added (on-disk size: 17166.9 KB)
+0005.450 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3800 files added (on-disk size: 17166.9 KB)
+0005.452 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 3900 files added (on-disk size: 17166.9 KB)
+0005.455 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4000 files added (on-disk size: 17166.9 KB)
+0005.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.8 MB, 11106 files batched, 1001 (4004) added so far); re-opening (prior size: 17166.9 KB)
+0006.627 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4100 files added (on-disk size: 20218.5 KB)
+0006.631 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4200 files added (on-disk size: 20218.5 KB)
+0006.634 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4300 files added (on-disk size: 20218.5 KB)
+0006.636 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4400 files added (on-disk size: 20218.5 KB)
+0006.639 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4500 files added (on-disk size: 20218.5 KB)
+0006.641 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4600 files added (on-disk size: 20218.5 KB)
+0006.643 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4700 files added (on-disk size: 20218.5 KB)
+0006.645 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4800 files added (on-disk size: 20218.5 KB)
+0006.647 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 4900 files added (on-disk size: 20218.5 KB)
+0006.649 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5000 files added (on-disk size: 20218.5 KB)
+0006.650 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.3 MB, 11106 files batched, 1001 (5005) added so far); re-opening (prior size: 20218.5 KB)
+0008.468 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: size is now: 25.10 MB
+0008.476 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5100 files added (on-disk size: 25741.8 KB)
+0008.479 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5200 files added (on-disk size: 25741.8 KB)
+0008.482 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5300 files added (on-disk size: 25741.8 KB)
+0008.507 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5400 files added (on-disk size: 25741.8 KB)
+0008.515 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5500 files added (on-disk size: 25741.8 KB)
+0008.523 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5600 files added (on-disk size: 25741.8 KB)
+0008.528 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5700 files added (on-disk size: 25741.8 KB)
+0008.536 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5800 files added (on-disk size: 25741.8 KB)
+0008.543 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 5900 files added (on-disk size: 25741.8 KB)
+0008.547 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6000 files added (on-disk size: 25741.8 KB)
+0008.548 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.4 MB, 11106 files batched, 1001 (6006) added so far); re-opening (prior size: 25741.8 KB)
+0010.204 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: size is now: 31.20 MB
+0010.216 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6100 files added (on-disk size: 31947.4 KB)
+0010.220 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6200 files added (on-disk size: 31947.4 KB)
+0010.224 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6300 files added (on-disk size: 31947.4 KB)
+0010.229 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6400 files added (on-disk size: 31947.4 KB)
+0010.232 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6500 files added (on-disk size: 31947.4 KB)
+0010.235 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6600 files added (on-disk size: 31947.4 KB)
+0010.239 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6700 files added (on-disk size: 31947.4 KB)
+0010.242 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6800 files added (on-disk size: 31947.4 KB)
+0010.244 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 6900 files added (on-disk size: 31947.4 KB)
+0010.246 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7000 files added (on-disk size: 31947.4 KB)
+0010.246 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.6 MB, 11106 files batched, 1001 (7007) added so far); re-opening (prior size: 31947.4 KB)
+0011.798 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7100 files added (on-disk size: 36628.1 KB)
+0011.808 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7200 files added (on-disk size: 36628.1 KB)
+0011.811 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7300 files added (on-disk size: 36628.1 KB)
+0011.815 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7400 files added (on-disk size: 36628.1 KB)
+0011.819 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7500 files added (on-disk size: 36628.1 KB)
+0011.823 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7600 files added (on-disk size: 36628.1 KB)
+0011.826 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7700 files added (on-disk size: 36628.1 KB)
+0011.830 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7800 files added (on-disk size: 36628.1 KB)
+0011.833 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 7900 files added (on-disk size: 36628.1 KB)
+0011.837 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8000 files added (on-disk size: 36628.1 KB)
+0011.839 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.4 MB, 11106 files batched, 1001 (8008) added so far); re-opening (prior size: 36628.1 KB)
+0013.431 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8100 files added (on-disk size: 40593.9 KB)
+0013.435 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8200 files added (on-disk size: 40593.9 KB)
+0013.437 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8300 files added (on-disk size: 40593.9 KB)
+0013.439 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8400 files added (on-disk size: 40593.9 KB)
+0013.441 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8500 files added (on-disk size: 40593.9 KB)
+0013.445 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8600 files added (on-disk size: 40593.9 KB)
+0013.448 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8700 files added (on-disk size: 40593.9 KB)
+0013.455 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8800 files added (on-disk size: 40593.9 KB)
+0013.457 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 8900 files added (on-disk size: 40593.9 KB)
+0013.459 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9000 files added (on-disk size: 40593.9 KB)
+0013.459 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 11106 files batched, 1001 (9009) added so far); re-opening (prior size: 40593.9 KB)
+0014.400 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9100 files added (on-disk size: 43171.2 KB)
+0014.402 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9200 files added (on-disk size: 43171.2 KB)
+0014.405 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9300 files added (on-disk size: 43171.2 KB)
+0014.407 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9400 files added (on-disk size: 43171.2 KB)
+0014.410 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9500 files added (on-disk size: 43171.2 KB)
+0014.412 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9600 files added (on-disk size: 43171.2 KB)
+0014.414 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9700 files added (on-disk size: 43171.2 KB)
+0014.416 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9800 files added (on-disk size: 43171.2 KB)
+0014.418 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 9900 files added (on-disk size: 43171.2 KB)
+0014.421 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10000 files added (on-disk size: 43171.2 KB)
+0014.422 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.8 MB, 11106 files batched, 1001 (10010) added so far); re-opening (prior size: 43171.2 KB)
+0016.277 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10100 files added (on-disk size: 49826.3 KB)
+0016.281 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10200 files added (on-disk size: 49826.3 KB)
+0016.284 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10300 files added (on-disk size: 49826.3 KB)
+0016.287 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10400 files added (on-disk size: 49826.3 KB)
+0016.290 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10500 files added (on-disk size: 49826.3 KB)
+0016.294 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10600 files added (on-disk size: 49826.3 KB)
+0016.297 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10700 files added (on-disk size: 49826.3 KB)
+0016.300 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10800 files added (on-disk size: 49826.3 KB)
+0016.303 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 10900 files added (on-disk size: 49826.3 KB)
+0016.306 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 11000 files added (on-disk size: 49826.3 KB)
+0016.307 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 11106 files batched, 1001 (11011) added so far); re-opening (prior size: 49826.3 KB)
+0017.555 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.tmp: 11100 files added (on-disk size: 52694 KB)
+0017.984 (0) Creating zip file manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.list-temp.tmp)
+0018.027 (0) Successfully created zip file manifest (size: 1007202)
+0018.701 (0) Created plugins zip (0) - 52998.2 KB in 18.5 s (2870.1 KB/s) (sha1: 9e4f2579a33e2d1f234f773abd83d4538117d567, sha256: 3841f3bd7b9d7f24e34b3f708956105b69cda23810308cc7bbb6034629fc0f7a)
+0018.713 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.714 (0) No remote despatch: user chose no remote backup service
+0018.715 (0) Recording as successfully uploaded: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip
+0018.716 (0) Deleting zip manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip.list.tmp)
+0018.719 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.720 (0) Number of backup sets in history: 0; groups (db): 1
+0018.721 (0) Number of backup sets in history: 0; groups (files): 1
+0018.722 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0018.727 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.875 (0) Total entities for the zip file: 207 directories, 1278 files (0 skipped as non-modified), 14.1 MB
+0018.881 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.883 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.890 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.893 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.895 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0018.898 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0018.900 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0018.902 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0018.905 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0018.907 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0018.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.3 MB, 1278 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0019.831 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: size is now: 1.40 MB
+0019.836 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 1100 files added (on-disk size: 1432 KB)
+0019.839 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: 1200 files added (on-disk size: 1432 KB)
+0020.752 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.tmp: size is now: 6.00 MB
+0020.783 (0) Creating zip file manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.list-temp.tmp)
+0020.790 (0) Successfully created zip file manifest (size: 97709)
+0020.882 (0) Created themes zip (0) - 6118.4 KB in 2.1 s (2918.8 KB/s) (sha1: c89afe8d320abbfbdb50c013ef0a6cfa1a15d6e5, sha256: c43900925ac2b5f660eb2185498dfa617cb4750b4bb7add74da3e875ed8222f0)
+0020.886 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.887 (0) No remote despatch: user chose no remote backup service
+0020.887 (0) Recording as successfully uploaded: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip
+0020.889 (0) Deleting zip manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip.list.tmp)
+0020.891 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.892 (0) Number of backup sets in history: 0; groups (db): 1
+0020.892 (0) Number of backup sets in history: 0; groups (files): 1
+0020.893 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0020.900 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.901 (0) Looking for candidates to backup in: /home1/jlhpjfmy/public_html/khawarmehfooz/wp-content/uploads
+0020.901 (0) finding files: wpforms: adding to list (1)
+0020.902 (0) finding files: 2021: adding to list (2)
+0020.902 (0) finding files: blocksy: adding to list (3)
+0020.903 (0) finding files: redux: adding to list (4)
+0020.903 (0) finding files: 2022: adding to list (5)
+0020.904 (0) finding files: pum: adding to list (6)
+0020.904 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.958 (0) Total entities for the zip file: 11 directories, 262 files (0 skipped as non-modified), 35.2 MB
+0020.962 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.965 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 262 files batched, 199 (199) added so far); re-opening (prior size: 0 KB)
+0021.401 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip.tmp: size is now: 24.80 MB
+0021.408 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.9 s, rate: 29486.3 KB/s)
+0021.411 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.86944794654846, normalised_time=0.86820064337044, max_time=21.40927195549, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0021.414 (0) Zip: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip.tmp: 200 files added (on-disk size: 25390.2 KB)
+0021.778 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip.tmp: size is now: 34.90 MB
+0021.783 (0) Creating zip file manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip.list-temp.tmp)
+0021.785 (0) Successfully created zip file manifest (size: 14865)
+0022.294 (0) Created uploads zip (0) - 35754.5 KB in 1.3 s (26561.1 KB/s) (sha1: fbfbfb2a349857e94c6d77aabdd317df5e776863, sha256: 9d6f761797acab1b81b9b414497bb45b6a6c807383418d73312961602c34e2d5)
+0022.297 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.298 (0) No remote despatch: user chose no remote backup service
+0022.299 (0) Recording as successfully uploaded: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip
+0022.300 (0) Deleting zip manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip.list.tmp)
+0022.302 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.303 (0) Number of backup sets in history: 0; groups (db): 1
+0022.303 (0) Number of backup sets in history: 0; groups (files): 1
+0022.304 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0022.309 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.311 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0022.311 (0) Looking for candidates to backup in: /home1/jlhpjfmy/public_html/khawarmehfooz/wp-content
+0022.312 (0) finding files: mu-plugins: adding to list (1)
+0022.313 (0) finding files: wflogs: adding to list (2)
+0022.314 (0) finding files: themes: skipping: this is the themes directory
+0022.314 (0) finding files: uploads: skipping: this is the uploads directory
+0022.315 (0) finding files: index.php: adding to list (3)
+0022.315 (0) finding files: updraft: skipping: this is the updraft directory
+0022.316 (0) finding files: upgrade: skipping: excluded by options
+0022.316 (0) finding files: plugins: skipping: this is the plugins directory
+0022.362 (0) Total entities for the zip file: 2 directories, 12 files (0 skipped as non-modified), 7.1 MB
+0023.133 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-others.zip.tmp: size is now: 3.30 MB
+0023.137 (0) Creating zip file manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-others.zip.list-temp.tmp)
+0023.139 (0) Successfully created zip file manifest (size: 412)
+0023.208 (0) Created others zip (0) - 3396.7 KB in 0.8 s (4001.4 KB/s) (sha1: 81a7235b332d9da7f247116251b36f37eebbebbe, sha256: f82f9d62839956f0d0dd29bc18a1e20e217e9aaeebdb3e3be71cfa2619dd35f2)
+0023.211 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0023.212 (0) No remote despatch: user chose no remote backup service
+0023.212 (0) Recording as successfully uploaded: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-others.zip
+0023.215 (0) Deleting zip manifest (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-others.zip.list.tmp)
+0023.217 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0023.218 (0) Number of backup sets in history: 0; groups (db): 1
+0023.219 (0) Number of backup sets in history: 0; groups (files): 1
+0023.219 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0023.228 (0) Saving backup status to database (elements: 8)
+0023.230 (0) Beginning creation of database dump (WordPress DB)
+0023.231 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0023.233 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0023.294 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp4o_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1555 bytes total)
+0023.296 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0023.374 (0) Table wp4o_options: Total expected rows (via COUNT): 427
+0023.375 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.494 (0) Table wp4o_options: Rows added in this batch (next record: 13249): 423 (uncompressed bytes in this segment=2217783) in 0.15 seconds
+0023.500 (0) Table wp4o_options: finishing file(s) (2, 461.5 KB)
+0023.516 (0) Table wp4o_users: Total expected rows (via COUNT): 3
+0023.518 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.521 (0) Table wp4o_users: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1760) in 0.01 seconds
+0023.526 (0) Table wp4o_users: finishing file(s) (2, 0.8 KB)
+0023.540 (0) Table wp4o_usermeta: Total expected rows (via COUNT): 143
+0023.541 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.544 (0) Table wp4o_usermeta: Rows added in this batch (next record: 208): 143 (uncompressed bytes in this segment=10469) in 0.01 seconds
+0023.549 (0) Table wp4o_usermeta: finishing file(s) (2, 4.4 KB)
+0023.561 (0) Table wp4o_actionscheduler_actions: Total expected rows (via COUNT): 116
+0023.562 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.568 (0) Table wp4o_actionscheduler_actions: Rows added in this batch (next record: 155): 116 (uncompressed bytes in this segment=44331) in 0.02 seconds
+0023.576 (0) Table wp4o_actionscheduler_actions: finishing file(s) (2, 3.9 KB)
+0023.586 (0) Table wp4o_actionscheduler_claims: Total expected rows (via COUNT): 0
+0023.598 (0) Table wp4o_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=638) in 0.02 seconds
+0023.602 (0) Table wp4o_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0023.612 (0) Table wp4o_actionscheduler_groups: Total expected rows (via COUNT): 3
+0023.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.617 (0) Table wp4o_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=742) in 0.01 seconds
+0023.623 (0) Table wp4o_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0023.638 (0) Table wp4o_actionscheduler_logs: Total expected rows (via COUNT): 336
+0023.642 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.649 (0) Table wp4o_actionscheduler_logs: Rows added in this batch (next record: 435): 336 (uncompressed bytes in this segment=29524) in 0.02 seconds
+0023.653 (0) Table wp4o_actionscheduler_logs: finishing file(s) (2, 3.4 KB)
+0023.677 (0) Table wp4o_commentmeta: Total expected rows (via COUNT): 2
+0023.678 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.681 (0) Table wp4o_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=837) in 0.02 seconds
+0023.686 (0) Table wp4o_commentmeta: finishing file(s) (2, 0.5 KB)
+0023.696 (0) Table wp4o_comments: Total expected rows (via COUNT): 5
+0023.697 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.698 (0) Table wp4o_comments: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=3539) in 0.01 seconds
+0023.706 (0) Table wp4o_comments: finishing file(s) (2, 1.3 KB)
+0023.724 (0) Table wp4o_links: Total expected rows (via COUNT): 0
+0023.728 (0) Table wp4o_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.01 seconds
+0023.733 (0) Table wp4o_links: finishing file(s) (2, 0.5 KB)
+0023.750 (0) Table wp4o_postmeta: Total expected rows (via COUNT): 643
+0023.751 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0023.790 (0) Table wp4o_postmeta: Rows added in this batch (next record: 886): 643 (uncompressed bytes in this segment=655704) in 0.05 seconds
+0023.796 (0) Table wp4o_postmeta: finishing file(s) (2, 54.8 KB)
+0023.827 (0) Table wp4o_posts: Total expected rows (via COUNT): 219
+0023.828 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.054 (0) Table wp4o_posts: Rows added in this batch (next record: 994): 219 (uncompressed bytes in this segment=7589745) in 0.25 seconds
+0024.059 (0) Table wp4o_posts: finishing file(s) (2, 763.2 KB)
+0024.072 (0) Table wp4o_term_relationships: Total expected rows (approximate): 21
+0024.075 (0) Table wp4o_term_relationships: Rows added in this batch (next record: 100000): 22 (uncompressed bytes in this segment=1010) in 0.01 seconds
+0024.078 (0) Table wp4o_term_relationships: finishing file(s) (2, 0.5 KB)
+0024.090 (0) Table wp4o_term_taxonomy: Total expected rows (via COUNT): 13
+0024.091 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.094 (0) Table wp4o_term_taxonomy: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1335) in 0.01 seconds
+0024.099 (0) Table wp4o_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0024.111 (0) Table wp4o_termmeta: Total expected rows (via COUNT): 11
+0024.112 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.113 (0) Table wp4o_termmeta: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1221) in 0.01 seconds
+0024.117 (0) Table wp4o_termmeta: finishing file(s) (2, 0.5 KB)
+0024.126 (0) Table wp4o_terms: Total expected rows (via COUNT): 13
+0024.128 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.129 (0) Table wp4o_terms: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1194) in 0.01 seconds
+0024.132 (0) Table wp4o_terms: finishing file(s) (2, 0.6 KB)
+0024.147 (0) Table wp4o_hustle_entries: Total expected rows (via COUNT): 0
+0024.150 (0) Table wp4o_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.01 seconds
+0024.153 (0) Table wp4o_hustle_entries: finishing file(s) (2, 0.4 KB)
+0024.171 (0) Table wp4o_hustle_entries_meta: Total expected rows (via COUNT): 0
+0024.173 (0) Table wp4o_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=908) in 0.01 seconds
+0024.178 (0) Table wp4o_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0024.196 (0) Table wp4o_hustle_modules: Total expected rows (via COUNT): 1
+0024.197 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.200 (0) Table wp4o_hustle_modules: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=889) in 0.01 seconds
+0024.204 (0) Table wp4o_hustle_modules: finishing file(s) (2, 0.4 KB)
+0024.223 (0) Table wp4o_hustle_modules_meta: Total expected rows (via COUNT): 8
+0024.224 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.227 (0) Table wp4o_hustle_modules_meta: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=76478) in 0.02 seconds
+0024.233 (0) Table wp4o_hustle_modules_meta: finishing file(s) (2, 9.5 KB)
+0024.251 (0) Table wp4o_hustle_tracking: Total expected rows (via COUNT): 0
+0024.254 (0) Table wp4o_hustle_tracking: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.01 seconds
+0024.258 (0) Table wp4o_hustle_tracking: finishing file(s) (2, 0.5 KB)
+0024.270 (0) Table wp4o_wfblockediplog: Total expected rows (approximate): 0
+0024.272 (0) Table wp4o_wfblockediplog: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0024.277 (0) Table wp4o_wfblockediplog: finishing file(s) (2, 0.5 KB)
+0024.293 (0) Table wp4o_wfblocks7: Total expected rows (via COUNT): 0
+0024.302 (0) Table wp4o_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.02 seconds
+0024.319 (0) Table wp4o_wfblocks7: finishing file(s) (2, 0.4 KB)
+0024.345 (0) Table wp4o_wfconfig: Total expected rows (approximate): 255
+0024.415 (0) Table wp4o_wfconfig: Rows added in this batch (next record: 1000): 259 (uncompressed bytes in this segment=824314) in 0.08 seconds
+0024.419 (0) Table wp4o_wfconfig: finishing file(s) (2, 426.6 KB)
+0024.448 (0) Table wp4o_wfcrawlers: Total expected rows (approximate): 8
+0024.486 (0) Table wp4o_wfcrawlers: Rows added in this batch (next record: 1000): 8 (uncompressed bytes in this segment=1647) in 0.04 seconds
+0024.491 (0) Table wp4o_wfcrawlers: finishing file(s) (2, 0.6 KB)
+0024.507 (0) Table wp4o_wffilechanges: Total expected rows (approximate): 0
+0024.509 (0) Table wp4o_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=464) in 0.01 seconds
+0024.514 (0) Table wp4o_wffilechanges: finishing file(s) (2, 0.3 KB)
+0024.522 (0) Table wp4o_wffilemods: Total expected rows (approximate): 13410
+0025.057 (0) Table wp4o_wffilemods: binary mysqldump finished (writes: 40, bytes 4291466, return code 0) in 0.53 seconds
+0025.061 (0) Table wp4o_wffilemods: finishing file(s) (1, 1257.8 KB)
+0025.075 (0) Table wp4o_wfhits: Total expected rows (via COUNT): 336
+0025.076 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.139 (0) Table wp4o_wfhits: Rows added in this batch (next record: 353): 336 (uncompressed bytes in this segment=152322) in 0.07 seconds
+0025.143 (0) Table wp4o_wfhits: finishing file(s) (2, 10.7 KB)
+0025.165 (0) Table wp4o_wfhoover: Total expected rows (via COUNT): 0
+0025.172 (0) Table wp4o_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=488) in 0.02 seconds
+0025.175 (0) Table wp4o_wfhoover: finishing file(s) (2, 0.3 KB)
+0025.186 (0) Table wp4o_wfissues: Total expected rows (via COUNT): 0
+0025.188 (0) Table wp4o_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.01 seconds
+0025.191 (0) Table wp4o_wfissues: finishing file(s) (2, 0.4 KB)
+0025.200 (0) Table wp4o_wfknownfilelist: Total expected rows (approximate): 13162
+0025.414 (0) Table wp4o_wfknownfilelist: binary mysqldump finished (writes: 31, bytes 2759429, return code 0) in 0.21 seconds
+0025.417 (0) Table wp4o_wfknownfilelist: finishing file(s) (1, 189.5 KB)
+0025.428 (0) Table wp4o_wflivetraffichuman: Total expected rows (approximate): 0
+0025.430 (0) Table wp4o_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=660) in 0.01 seconds
+0025.434 (0) Table wp4o_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0025.449 (0) Table wp4o_wflocs: Total expected rows (approximate): 0
+0025.452 (0) Table wp4o_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=841) in 0.01 seconds
+0025.456 (0) Table wp4o_wflocs: finishing file(s) (2, 0.5 KB)
+0025.467 (0) Table wp4o_wflogins: Total expected rows (via COUNT): 30
+0025.468 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.471 (0) Table wp4o_wflogins: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=7460) in 0.01 seconds
+0025.474 (0) Table wp4o_wflogins: finishing file(s) (2, 1 KB)
+0025.491 (0) Table wp4o_wfls_2fa_secrets: Total expected rows (via COUNT): 1
+0025.492 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.495 (0) Table wp4o_wfls_2fa_secrets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=931) in 0.01 seconds
+0025.499 (0) Table wp4o_wfls_2fa_secrets: finishing file(s) (2, 0.5 KB)
+0025.510 (0) Table wp4o_wfls_settings: Total expected rows (approximate): 22
+0025.513 (0) Table wp4o_wfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1787) in 0.01 seconds
+0025.517 (0) Table wp4o_wfls_settings: finishing file(s) (2, 0.9 KB)
+0025.527 (0) Table wp4o_wfnotifications: Total expected rows (approximate): 1
+0025.539 (0) Table wp4o_wfnotifications: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=5707) in 0.02 seconds
+0025.544 (0) Table wp4o_wfnotifications: finishing file(s) (2, 1.1 KB)
+0025.562 (0) Table wp4o_wfpendingissues: Total expected rows (via COUNT): 0
+0025.566 (0) Table wp4o_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0025.571 (0) Table wp4o_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0025.585 (0) Table wp4o_wfreversecache: Total expected rows (approximate): 0
+0025.588 (0) Table wp4o_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=619) in 0.01 seconds
+0025.591 (0) Table wp4o_wfreversecache: finishing file(s) (2, 0.4 KB)
+0025.606 (0) Table wp4o_wfsnipcache: Total expected rows (via COUNT): 0
+0025.608 (0) Table wp4o_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.01 seconds
+0025.611 (0) Table wp4o_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0025.629 (0) Table wp4o_wfstatus: Total expected rows (via COUNT): 943
+0025.651 (0) Table wp4o_wfstatus: Rows added in this batch (next record: 3301): 943 (uncompressed bytes in this segment=89275) in 0.03 seconds
+0025.655 (0) Table wp4o_wfstatus: finishing file(s) (2, 14.7 KB)
+0025.666 (0) Table wp4o_wftrafficrates: Total expected rows (approximate): 0
+0025.670 (0) Table wp4o_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=578) in 0.01 seconds
+0025.674 (0) Table wp4o_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0025.689 (0) Table wp4o_wpforms_tasks_meta: Total expected rows (via COUNT): 9
+0025.690 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.693 (0) Table wp4o_wpforms_tasks_meta: Rows added in this batch (next record: 37): 9 (uncompressed bytes in this segment=1375) in 0.01 seconds
+0025.697 (0) Table wp4o_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0025.711 (0) Table wp4o_wpmailsmtp_debug_events: Total expected rows (via COUNT): 1
+0025.713 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.714 (0) Table wp4o_wpmailsmtp_debug_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1856) in 0.01 seconds
+0025.717 (0) Table wp4o_wpmailsmtp_debug_events: finishing file(s) (2, 0.9 KB)
+0025.733 (0) Table wp4o_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0025.733 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.734 (0) Table wp4o_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=775) in 0.01 seconds
+0025.738 (0) Table wp4o_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0025.750 (0) Table wp4o_yoast_indexable: Total expected rows (via COUNT): 143
+0025.751 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.763 (0) Table wp4o_yoast_indexable: Rows added in this batch (next record: 173): 143 (uncompressed bytes in this segment=99829) in 0.02 seconds
+0025.769 (0) Table wp4o_yoast_indexable: finishing file(s) (2, 13.5 KB)
+0025.779 (0) Table wp4o_yoast_indexable_hierarchy: Total expected rows (approximate): 90
+0025.782 (0) Table wp4o_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 90 (uncompressed bytes in this segment=2335) in 0.01 seconds
+0025.786 (0) Table wp4o_yoast_indexable_hierarchy: finishing file(s) (2, 0.7 KB)
+0025.803 (0) Table wp4o_yoast_migrations: Total expected rows (via COUNT): 23
+0025.803 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.807 (0) Table wp4o_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.02 seconds
+0025.811 (0) Table wp4o_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0025.825 (0) Table wp4o_yoast_primary_term: Total expected rows (via COUNT): 3
+0025.825 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.829 (0) Table wp4o_yoast_primary_term: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1157) in 0.01 seconds
+0025.832 (0) Table wp4o_yoast_primary_term: finishing file(s) (2, 0.6 KB)
+0025.842 (0) Table wp4o_yoast_seo_links: Total expected rows (via COUNT): 84
+0025.843 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.847 (0) Table wp4o_yoast_seo_links: Rows added in this batch (next record: 197): 84 (uncompressed bytes in this segment=11146) in 0.01 seconds
+0025.852 (0) Table wp4o_yoast_seo_links: finishing file(s) (2, 2 KB)
+0025.854 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_options.table.tmpr13250.gz (1/50/fopen): adding to final database dump
+0025.860 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_options.table.gz (2/50/fopen): adding to final database dump
+0025.861 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_users.table.tmpr5.gz (3/50/fopen): adding to final database dump
+0025.861 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_users.table.gz (4/50/fopen): adding to final database dump
+0025.862 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_usermeta.table.tmpr209.gz (5/50/fopen): adding to final database dump
+0025.862 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_usermeta.table.gz (6/50/fopen): adding to final database dump
+0025.863 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_actions.table.tmpr156.gz (7/50/fopen): adding to final database dump
+0025.864 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_actions.table.gz (8/50/fopen): adding to final database dump
+0025.864 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_claims.table.tmpr0.gz (9/50/fopen): adding to final database dump
+0025.865 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_claims.table.gz (10/50/fopen): adding to final database dump
+0025.865 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_groups.table.tmpr4.gz (11/50/fopen): adding to final database dump
+0025.866 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_groups.table.gz (12/50/fopen): adding to final database dump
+0025.866 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_logs.table.tmpr436.gz (13/50/fopen): adding to final database dump
+0025.867 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_actionscheduler_logs.table.gz (14/50/fopen): adding to final database dump
+0025.867 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_commentmeta.table.tmpr3.gz (15/50/fopen): adding to final database dump
+0025.868 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_commentmeta.table.gz (16/50/fopen): adding to final database dump
+0025.868 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_comments.table.tmpr7.gz (17/50/fopen): adding to final database dump
+0025.869 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_comments.table.gz (18/50/fopen): adding to final database dump
+0025.870 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_links.table.tmpr0.gz (19/50/fopen): adding to final database dump
+0025.870 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_links.table.gz (20/50/fopen): adding to final database dump
+0025.871 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_postmeta.table.tmpr887.gz (21/50/fopen): adding to final database dump
+0025.872 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_postmeta.table.gz (22/50/fopen): adding to final database dump
+0025.872 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_posts.table.tmpr995.gz (23/50/fopen): adding to final database dump
+0025.888 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_posts.table.gz (24/50/fopen): adding to final database dump
+0025.889 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_term_relationships.table.tmpr100001.gz (25/50/fopen): adding to final database dump
+0025.890 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_term_relationships.table.gz (26/50/fopen): adding to final database dump
+0025.890 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_term_taxonomy.table.tmpr14.gz (27/50/fopen): adding to final database dump
+0025.891 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_term_taxonomy.table.gz (28/50/fopen): adding to final database dump
+0025.891 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_termmeta.table.tmpr12.gz (29/50/fopen): adding to final database dump
+0025.892 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_termmeta.table.gz (30/50/fopen): adding to final database dump
+0025.892 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_terms.table.tmpr14.gz (31/50/fopen): adding to final database dump
+0025.893 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_terms.table.gz (32/50/fopen): adding to final database dump
+0025.893 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_entries.table.tmpr0.gz (33/50/fopen): adding to final database dump
+0025.894 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_entries.table.gz (34/50/fopen): adding to final database dump
+0025.894 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_entries_meta.table.tmpr0.gz (35/50/fopen): adding to final database dump
+0025.895 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_entries_meta.table.gz (36/50/fopen): adding to final database dump
+0025.895 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_modules.table.tmpr2.gz (37/50/fopen): adding to final database dump
+0025.896 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_modules.table.gz (38/50/fopen): adding to final database dump
+0025.896 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_modules_meta.table.tmpr9.gz (39/50/fopen): adding to final database dump
+0025.897 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_modules_meta.table.gz (40/50/fopen): adding to final database dump
+0025.897 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_tracking.table.tmpr0.gz (41/50/fopen): adding to final database dump
+0025.898 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_hustle_tracking.table.gz (42/50/fopen): adding to final database dump
+0025.898 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfblockediplog.table.tmpr1001.gz (43/50/fopen): adding to final database dump
+0025.899 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfblockediplog.table.gz (44/50/fopen): adding to final database dump
+0025.899 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfblocks7.table.tmpr0.gz (45/50/fopen): adding to final database dump
+0025.900 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfblocks7.table.gz (46/50/fopen): adding to final database dump
+0025.900 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfconfig.table.tmpr1001.gz (47/50/fopen): adding to final database dump
+0025.906 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfconfig.table.gz (48/50/fopen): adding to final database dump
+0025.906 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfcrawlers.table.tmpr1001.gz (49/50/fopen): adding to final database dump
+0025.907 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfcrawlers.table.gz (50/50/fopen): adding to final database dump
+0025.908 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wffilechanges.table.tmpr1.gz (51/50/fopen): adding to final database dump
+0025.908 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wffilechanges.table.gz (52/50/fopen): adding to final database dump
+0025.909 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wffilemods.table.gz (53/50/fopen): adding to final database dump
+0025.925 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfhits.table.tmpr354.gz (54/50/fopen): adding to final database dump
+0025.926 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfhits.table.gz (55/50/fopen): adding to final database dump
+0025.927 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfhoover.table.tmpr0.gz (56/50/fopen): adding to final database dump
+0025.928 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfhoover.table.gz (57/50/fopen): adding to final database dump
+0025.928 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfissues.table.tmpr0.gz (58/50/fopen): adding to final database dump
+0025.929 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfissues.table.gz (59/50/fopen): adding to final database dump
+0025.930 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfknownfilelist.table.gz (60/50/fopen): adding to final database dump
+0025.933 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wflivetraffichuman.table.tmpr1.gz (61/50/fopen): adding to final database dump
+0025.933 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wflivetraffichuman.table.gz (62/50/fopen): adding to final database dump
+0025.934 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wflocs.table.tmpr1001.gz (63/50/fopen): adding to final database dump
+0025.934 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wflocs.table.gz (64/50/fopen): adding to final database dump
+0025.935 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wflogins.table.tmpr31.gz (65/50/fopen): adding to final database dump
+0025.941 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wflogins.table.gz (66/50/fopen): adding to final database dump
+0025.942 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfls_2fa_secrets.table.tmpr2.gz (67/50/fopen): adding to final database dump
+0025.942 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfls_2fa_secrets.table.gz (68/50/fopen): adding to final database dump
+0025.943 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfls_settings.table.tmpr1001.gz (69/50/fopen): adding to final database dump
+0025.944 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfls_settings.table.gz (70/50/fopen): adding to final database dump
+0025.944 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfnotifications.table.tmpr1001.gz (71/50/fopen): adding to final database dump
+0025.945 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfnotifications.table.gz (72/50/fopen): adding to final database dump
+0025.946 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfpendingissues.table.tmpr0.gz (73/50/fopen): adding to final database dump
+0025.946 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfpendingissues.table.gz (74/50/fopen): adding to final database dump
+0025.947 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfreversecache.table.tmpr1001.gz (75/50/fopen): adding to final database dump
+0025.947 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfreversecache.table.gz (76/50/fopen): adding to final database dump
+0025.948 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfsnipcache.table.tmpr0.gz (77/50/fopen): adding to final database dump
+0025.949 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfsnipcache.table.gz (78/50/fopen): adding to final database dump
+0025.949 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfstatus.table.tmpr3302.gz (79/50/fopen): adding to final database dump
+0025.950 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wfstatus.table.gz (80/50/fopen): adding to final database dump
+0025.950 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wftrafficrates.table.tmpr1.gz (81/50/fopen): adding to final database dump
+0025.951 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wftrafficrates.table.gz (82/50/fopen): adding to final database dump
+0025.952 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wpforms_tasks_meta.table.tmpr38.gz (83/50/fopen): adding to final database dump
+0025.953 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wpforms_tasks_meta.table.gz (84/50/fopen): adding to final database dump
+0025.953 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wpmailsmtp_debug_events.table.tmpr2.gz (85/50/fopen): adding to final database dump
+0025.954 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wpmailsmtp_debug_events.table.gz (86/50/fopen): adding to final database dump
+0025.955 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wpmailsmtp_tasks_meta.table.tmpr2.gz (87/50/fopen): adding to final database dump
+0025.955 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_wpmailsmtp_tasks_meta.table.gz (88/50/fopen): adding to final database dump
+0025.956 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_indexable.table.tmpr174.gz (89/50/fopen): adding to final database dump
+0025.957 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_indexable.table.gz (90/50/fopen): adding to final database dump
+0025.957 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_indexable_hierarchy.table.tmpr1001.gz (91/50/fopen): adding to final database dump
+0025.958 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_indexable_hierarchy.table.gz (92/50/fopen): adding to final database dump
+0025.959 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_migrations.table.tmpr24.gz (93/50/fopen): adding to final database dump
+0025.960 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_migrations.table.gz (94/50/fopen): adding to final database dump
+0025.960 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_primary_term.table.tmpr4.gz (95/50/fopen): adding to final database dump
+0025.961 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_primary_term.table.gz (96/50/fopen): adding to final database dump
+0025.962 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_seo_links.table.tmpr198.gz (97/50/fopen): adding to final database dump
+0025.962 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db-table-wp4o_yoast_seo_links.table.gz (98/50/fopen): adding to final database dump
+0025.983 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db.gz: finished writing out complete database file (3234.6 KB)
+0026.034 (0) Total database tables backed up: 50 (backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db.gz, size: 3312379, sha1: 8ff50c9d0d231c4e8ca83df1957aa5394ae15ddd, sha256: 5d994753a4c0228614442f18b973b6187af097230b81811ee4ccfeb99d838854)
+0026.039 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-plugins.zip: plugins: This file has already been successfully uploaded
+0026.040 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-themes.zip: themes: This file has already been successfully uploaded
+0026.041 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-uploads.zip: uploads: This file has already been successfully uploaded
+0026.041 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-others.zip: others: This file has already been successfully uploaded
+0026.042 (0) backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0026.043 (0) Saving backup history. Total backup size: 99.1 MB
+0026.045 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0026.047 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0026.048 (0) No remote despatch: user chose no remote backup service
+0026.048 (0) Recording as successfully uploaded: backup_2022-08-24-1150_Khawar_Mehfooz_121469cb684d-db.gz
+0026.052 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0026.052 (0) Number of backup sets in history: 1; groups (db): 1
+0026.053 (0) Examining (for databases) backup set with group_id=0, nonce=121469cb684d, datestamp=1661323853 (Aug 24 2022 06:50:53)
+0026.054 (0) This backup set is the backup set just made, so will not be deleted.
+0026.054 (0) Number of backup sets in history: 1; groups (files): 1
+0026.055 (0) Examining (for files) backup set with nonce=121469cb684d, datestamp=1661323853 (Aug 24 2022 06:50:53)
+0026.055 (0) This backup set is the backup set just made, so will not be deleted.
+0026.055 (0) This backup set is the backup set just made, so will not be deleted.
+0026.055 (0) This backup set is the backup set just made, so will not be deleted.
+0026.055 (0) This backup set is the backup set just made, so will not be deleted.
+0026.055 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0026.056 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0026.058 (0) Resume backup (121469cb684d, 0): finish run
+0026.059 (0) Decremented the semaphore (fd) by 1
+0026.060 (0) Semaphore (fd) unlocked
+0026.061 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0026.064 (0) No email will/can be sent - the user has not configured an email address.
+0026.065 (0) The backup apparently succeeded and is now complete
